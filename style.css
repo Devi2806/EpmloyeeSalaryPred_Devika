@@ -1,0 +1,64 @@
+/* style.css - Custom styling for Streamlit App */
+
+/* Background and text */
+body {
+    background-color: #111111;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container */
+[data-testid="stAppViewContainer"] {
+    padding: 2rem;
+    border: 2px solid #ff69b4; /* pink border */
+    border-radius: 20px;
+    background-color: #1c1c1c;
+}
+
+/* Buttons */
+button[kind="primary"] {
+    background-color: #ff69b4 !important;
+    color: white !important;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+/* Input boxes */
+input, select, textarea {
+    border-radius: 8px !important;
+    padding: 0.4rem !important;
+    background-color: #2e2e2e !important;
+    color: white !important;
+    border: 1px solid #ff69b4 !important;
+}
+
+/* File uploader */
+.css-1y4p8pa {
+    background-color: #2e2e2e !important;
+    color: white !important;
+    border: 1px solid #ff69b4 !important;
+}
+
+/* Result box */
+.result-box {
+    border: 2px solid #ff69b4;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #282828;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Center content */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Titles and headings */
+h1, h2, h3 {
+    color: #ff69b4;
+}
